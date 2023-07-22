@@ -31,4 +31,4 @@ return the component and you're good to go!
 
 Check out the [demo](https://hashdive.github.io/MultiColorHighlighter/) for an example. Feel free to use and edit however you see fit.
 
-Ideas for improving: mobile, more format options
+Ideas for improvement: mobile, more format options
