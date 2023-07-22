@@ -1,0 +1,97 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  min-height: 100vh; /* Ensure the black background fills the entire screen */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.app-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff69b4;
+  margin-bottom: 2rem;
+  text-shadow: 4px 4px 6px rgba(255, 105, 180, 0.3);
+  animation: titleAnim 3s ease infinite alternate;
+}
+
+.app-subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b6ffb6;
+  margin-bottom: 2rem;
+  text-shadow: 4px 4px 6px rgba(255, 105, 180, 0.3);
+  animation: titleAnim 3s ease infinite alternate;
+}
+
+.app-story {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 2rem;
+  color: #333; /* Dark gray text color */
+}
+
+/* Add the new CSS class for the story text */
+.magical-font {
+  font-family: 'Indie Flower', cursive;
+}
+
+.app-subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.app-subtitle span {
+  display: inline-block;
+  color: #ff0000; /* Red */
+  animation: wobbleAnim 1s ease infinite alternate;
+}
+
+/* Define the wobble animation */
+@keyframes wobbleAnim {
+  0% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes titleAnim {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.app-demo-container {
+  border: 2px solid #ff69b4;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.3);
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .app-demo-container {
+    max-width: 90%; /* Reduce the width on smaller screens */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+}
