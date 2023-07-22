@@ -29,6 +29,6 @@ return the component and you're good to go!
             font="'Indie Flower', cursive"
         />
 
-Check out the [demo] (https://hashdive.github.io/MultiColorHighlighter/) for an example. Feel free to use and edit however you see fit.
+Check out the [demo](https://hashdive.github.io/MultiColorHighlighter/) for an example. Feel free to use and edit however you see fit.
 
 Ideas for improving: mobile, more format options
