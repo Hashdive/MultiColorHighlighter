@@ -7,12 +7,12 @@ This is a single file text highlighter for React.
 
 Create a MultiColorHighlighter.js file in your project and copy/ paste in the code MultiColorHighlighter code.
 
-Then, import
+Import
 ---
         import MultiColorHighlighter from './MultiColorHighlighter';
 
 
-set initial highlights (if any)
+set initial highlights if any
 ---
         const [highlights, setHighlights] = useState([
             { start: 43, end: 49, color: '#FF69B4' }, // Highlight "magical unicorn"
