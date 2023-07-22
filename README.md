@@ -1,7 +1,7 @@
 
 # MultiColorHighlighter
 
-This is a single file text highlighter for React.
+Single file text highlighter for React.
 
 ## How to Use
 
