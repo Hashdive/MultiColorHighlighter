@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # MultiColorHighlighter
 
 This is a single file text highlighter for React.
@@ -31,8 +31,4 @@ return the component and you're good to go!
 
 Check out the [demo](www.hashidve.github.io/MultiColorHighlighter) for an example. Feel free to use and edit however you see fit.
 
-
-
-=======
-# MultiColorHighlighter
->>>>>>> 9cb75208284e74fbbb83a7f0db2d22fb8676b788
+Ideas for improving: mobile, more format options
